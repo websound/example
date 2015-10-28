@@ -1,6 +1,7 @@
-example
-=======
+Remote Performance example using WebMIDI and WebRTC
+===================================================
 
+> **WIP**
 
 ## Usage
 
@@ -9,7 +10,7 @@ npm install
 npm install -g bower
 bower install
 node index.js
-open http://localhost:3001
+open http://localhost:8000
 ```
 
 
