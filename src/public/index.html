@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <title></title>
+</head>
+<body>
+  <section id="container">
+    <div class="reg-form-container">
+      <label for="username-input">Username</label>
+      <input type="text" id="username-input" class="form-control">
+      <br>
+      <button id="connect-btn" class="btn btn-primary">Connect</button>
+    </div>
+  </section>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/vendor/react/react-with-addons.js"></script>
+  <script src="/vendor/react/JSXTransformer.js"></script>
+  <script src="/vendor/jquery/dist/jquery.js"></script>
+  <script src="/vendor/peerjs/peer.js"></script>
+  <script src="/vendor/eventEmitter/EventEmitter.js"></script>
+  <script type="text/jsx" src="/js/Topics.js"></script>
+  <script type="text/jsx" src="/js/models/ChatProxy.js"></script>
+  <script type="text/jsx" src="/js/components/chat/ChatBox.jsx"></script>
+  <script type="text/jsx" src="/js/components/chat/UsersList.jsx"></script>
+  <script type="text/jsx" src="/js/components/chat/ChatMessage.jsx"></script>
+  <script type="text/jsx" src="/js/components/chat/MessageInput.jsx"></script>
+  <script type="text/jsx" src="/js/components/chat/MessagesList.jsx"></script>
+  <script type="text/jsx" src="/js/app.jsx"></script>
+</body>
+</html>
