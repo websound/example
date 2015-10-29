@@ -9,7 +9,7 @@ Remote Performance example using WebMIDI and WebRTC
 npm install
 npm install -g bower
 bower install
-node index.js
+node src/index.js
 open http://localhost:8000
 ```
 
