@@ -1,4 +1,4 @@
-Remote Performance example using WebMIDI and WebRTC
+WebRTC reference for RemotePerformer: https://github.com/websound/RemotePerformer
 ===================================================
 
 > **WIP**
